@@ -1,19 +1,19 @@
 ---
 title: An automated SARS-CoV-2 genome surveillance system built around Galaxy
-search_exclude: true
 contributors: [Wolfgang Maier] 
 description: An automated, modular system for large-scale FAIR analysis of SARS-CoV-2 sequencing data analysis powered by the Galaxy platform.
 affiliations: [DE, European Union]
 page_id: COVID19GalaxyProject
 related_pages:
-showcase: KoroGenoEst
-Training:
-Name: Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data
-registry: TeSS
-Url: https://tess.elixir-europe.org/materials/hands-on-for-mutation-calling-viral-genome-reconstruction-and-lineage-clade-assignment-from-sars-cov-2-sequencing-data-tutorial
-Name: Automating Galaxy workflows using the command line
-registry: TeSS
-Url: https://tess.elixir-europe.org/materials/hands-on-for-automating-galaxy-workflows-using-the-command-line-tutorial 
+  showcase: 
+  - KoroGenoEst
+training:
+  - name: Mutation calling, viral genome reconstruction and lineage/clade assignment from SARS-CoV-2 sequencing data
+    registry: TeSS
+    url: https://tess.elixir-europe.org/materials/hands-on-for-mutation-calling-viral-genome-reconstruction-and-lineage-clade-assignment-from-sars-cov-2-sequencing-data-tutorial
+  - name: Automating Galaxy workflows using the command line
+    registry: TeSS
+    url: https://tess.elixir-europe.org/materials/hands-on-for-automating-galaxy-workflows-using-the-command-line-tutorial 
 ---
 
 ## Introduction 
