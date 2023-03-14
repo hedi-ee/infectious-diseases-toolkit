@@ -42,11 +42,11 @@ While both types of data are important for understanding human health and diseas
 
 Human biomolecular data is of great importance in infectious disease research because it plays a critical role in understanding the molecular basis of the disease. By analyzing the biomolecular data, researchers can gain a deeper understanding of the disease's pathogenesis, evolution, and transmission. Personalised medicine is another area where biomolecular data can be applied. By analyzing an individual's biomolecular data, researchers can develop personalised treatment plans that are tailored to the specific needs of the patient. For example, if a patient has a genetic mutation that predisposes them to a particular disease, this information can be used to develop a personalised treatment plan that takes into account the patient's genetic profile.
 
-## Data deposition and FAIRness
+<!-- ## Data deposition and FAIRness -->
 
 <!--- Currently in standby waiting to check the clinical data sources FAIRness.--->
 
-### Considerations
+<!-- ### Considerations -->
 
 ## Search and discoverability
 
