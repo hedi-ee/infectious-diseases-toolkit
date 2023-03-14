@@ -119,6 +119,8 @@ The KoroGeno-EST studies were conducted in cooperation with the University of Ta
 - [European Nucleotide Archive Quick tour by EMBL-EBI](https://www.ebi.ac.uk/training/online/courses/ena-quick-tour/)
 - [Example metadata template ERC000033](https://github.com/ELIXIR-Belgium/ENA-metadata-templates/blob/main/templates/ERC000033/example_metadata_template_ERC000033.xlsx )
 
+## Team members of KoroGeno-Est
+Aare Abroi, Radko Avi, Liidia Dotsenko, Jevgenia Epštein, Ulvi Gerst Talas, Mari-Anne Härma, Dagmar Hoidmets, Kristi Huik, Heleri Inno, Erik Jaaniso, Ene-Ly Jõgeda, Katrin Kaarna, Eveli Kallas, Ivar Koppel, Ivan Kuzmin, Andrio Lahesaare, Irja Lutsar, Mait Metspalu, Lili Milani, Paul Naaber, Heiki Niglas, Ott Eric Oopkaup, Taavi Päll, Merit Pauskar, Hedi Peterson, Kaspar Ratnik, Tuuli Reisberg, Uku Raudvere, Olga Sadikova, Hanna Sepp, Arina Shablinskaja, Steven Smit, Heleene Suija, Kai Truusalu
 
 <!--- In this section you should provide a brief summary of the uses of the showcase, i.e. when you would use this showcase resource ---> 
 
