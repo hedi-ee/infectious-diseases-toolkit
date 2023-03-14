@@ -1,6 +1,5 @@
 ---
 title: Switzerland
-search_exclude: true 
 country_code: CH
 contributors: [Aitana Neves, Patricia M. Palagi] 
 coordinators: [Aitana Neves]
@@ -56,10 +55,10 @@ https://www.covid19dataportal.org/
 
 Registries and databases, with a text to give the context: how they are related and complement each other.
 
-SPSP: https://www.spsp.ch/
-Swiss Biobank: https://swissbiobanking.ch/
-Swissmedic: Human medicines, Medicinal products may only be distributed in Switzerland if they are authorised by Swissmedic: https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel.html
-SPHN Consortium on Maelstrom: https://sphn.ch/network/data-coordination-center/maelstrom/
+- (SPSP)[https://www.spsp.ch/]
+- (Swiss Biobank)[https://swissbiobanking.ch/]
+- (Swissmedic - Human medicines, Medicinal products may only be distributed in Switzerland if they are authorised by Swissmedic)[https://www.swissmedic.ch/swissmedic/en/home/humanarzneimittel.html]
+- (SPHN Consortium on Maelstrom)[https://sphn.ch/network/data-coordination-center/maelstrom/]
 
 ## Regulations
 <!--- Ethical and legal regulations in the country, committees etc --->
