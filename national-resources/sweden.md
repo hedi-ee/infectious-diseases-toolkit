@@ -65,12 +65,13 @@ LIANE FROM HERE DOWN!
 - https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/statistik-relaterad-till-covid-19/ some info on influenza here 
 
 ## National data resources
-- Loads of different COVID-19 Data sources from FOHM: https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/
-https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/ (lots of data about COVID from Socialstyrelsen) 
-- https://figshare.scilifelab.se/categories/Biomedical_and_clinical_sciences/24457?categories=24508 (SciLifeLab Data Repository)
-- Patientregistret (Swedish Patient Registry)
-- Läkemedelsregistret (National Prescribed Drug Register)
-Swedish quality registers https://skr.se/en/kvalitetsregister/hittaregister.54631.html
+- [COVID-19 data sources from FOHM](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/utbrott/aktuella-utbrott/covid-19/statistik-och-analyser/)
+- [COVID-19 data sources from The National Board for Health and  Welfare](https://www.socialstyrelsen.se/statistik-och-data/statistik/statistik-om-covid-19/)
+- [Infectious diseases data sources published on the SciLifeLab Data Repository](https://figshare.scilifelab.se/categories/Biomedical_and_clinical_sciences/24457?categories=24508)
+- [National Patient Register](https://www.socialstyrelsen.se/en/statistics-and-data/registers/national-patient-register/)
+- [National Prescribed Drug Register](https://www.socialstyrelsen.se/en/statistics-and-data/registers/national-prescribed-drug-register/)
+- [National vaccination register](https://www.folkhalsomyndigheten.se/smittskydd-beredskap/vaccinationer/nationella-vaccinationsregistret/)(in Swedish)
+- [Quality Registry for SARS-CoV-2](https://covid19register.se/)(in Swedish)
 
 ## Regulations
 <!--- Ethical and legal regulations in the country, committees etc --->
