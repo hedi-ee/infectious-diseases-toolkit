@@ -19,7 +19,7 @@ training:
 
 The SARS-CoV-2 pandemic has generated a demand for sequencing-based viral genome analysis at an unprecedented scale. This challenge triggered the initiation of many new sequencing initiatives, but, luckily, also a lot of activity in public compute and storage infrastructure projects and in workflow initiatives and frameworks, that such initiatives could rely on.
 
-Here we demonstrate how the Galaxy Project with the help of many additional collaborators leveraged and combined public infrastructure and systems for storing and sharing data and for managing data analysis workflows, to form a modular and scalable system for FAIR analysis of SARS-CoV-2 sequencing data.
+Here we demonstrate how the [Galaxy Project](https://galaxyproject.org/projects/covid19) with the help of many additional collaborators leveraged and combined public infrastructure and systems for storing and sharing data and for managing data analysis workflows, to form a modular and scalable system for FAIR analysis of SARS-CoV-2 sequencing data.
 
 
 ## Who is the showcase intended for?
@@ -39,44 +39,46 @@ An automated SARS-CoV-2 sequencing data analysis system built around Galaxy as t
 
 ### European Nucleotide Archive (ENA)
 
-Many large national SARS-CoV-2 sequencing data providers submit their raw data to the ENA. In the showcase we are using the ENA’s public API to extract links to the raw sequencing data of newly submitted sequenced reads from several large-scale national genome surveillance efforts including (but not limited to):
-  - the COVID-19 Genomics UK Consortium (COG-UK; ENA study accession: PRJEB37886)
-  - the Portuguese network for SARS-CoV-2 genomics (PRJEB47340)
-  - the Estonian national sequencing initiatives (KoroGeno-EST-3 and KoroGeno-EST-2022; see dedicated showcase)
+Many large national SARS-CoV-2 sequencing data providers submit their raw data to the [ENA](https://www.ebi.ac.uk/ena/browser). In the showcase we are using the ENA’s public [API](https://www.ebi.ac.uk/ena/portal/api/doc) to extract links to the raw sequencing data of newly submitted sequenced reads from several large-scale national genome surveillance efforts including (but not limited to):
+  - the [COVID-19 Genomics UK Consortium](https://www.cogconsortium.uk/) (COG-UK; ENA study accession: PRJEB37886)
+  - the [Portuguese network for SARS-CoV-2 genomics](https://insaflu.insa.pt/covid19/) (PRJEB47340)
+  - the Estonian national sequencing initiatives (KoroGeno-EST-3 and KoroGeno-EST-2022; see [dedicated showcase](https://www.infectious-diseases-toolkit.org/showcase/korogenoest.html))
 
-In addition, we provide the possibility to request analysis of samples of particular interest via pull requests to a dedicated github repo.
+In addition, we provide the possibility to request analysis of samples of particular interest via pull requests to a dedicated [github repo](https://github.com/usegalaxy-eu/sars-cov-2-processing-requests).
 
-### WorkflowHub registry for scientific workflows
+### WorkflowHub
 
-The registry provides access to hundreds of workflows with defined releases, among them several Galaxy workflows for SARS-CoV-2 genome analysis provided and reviewed by the IWC.
+The [WorkflowHub registry](https://workflowhub.eu/) for scientific workflows provides access to hundreds of workflows with defined releases, among them several [Galaxy workflows for SARS-CoV-2 genome analysis](https://workflowhub.eu/workflows?filter%5Bproject%5D=33&filter%5Bquery%5D=covid) provided and reviewed by the [IWC](https://github.com/galaxyproject/iwc).
 
-### European Galaxy Server
+### Galaxy Europe
 
-The server provides free access to powerful publicly-funded compute infrastructure and thousands of bioinformatics tools.
+The [European Galaxy server](https://github.com/galaxyproject/iwc) provides free access to powerful publicly-funded compute infrastructure and thousands of bioinformatics tools.
 
 In the showcase we download ENA-hosted sequencing data using the links discovered above to the server and process it with the workflows from WorkflowHub.
 
 ### FTP server
 
-This server is provided by the Centre for Genomic Regulation (CRG).
+This server is provided by the [Centre for Genomic Regulation](https://www.crg.eu/) (CRG).
 
-For every sample processed through Galaxy workflow runs, we are exporting key results files (reads mapped to the viral reference sequence, variant calls, consensus sequences and tabular reports) to a public space on this server so that consumers can discover, access and reuse it without dealing with Galaxy at all. We are also maintaining a provenance JSON file on that server that makes it possible to reconstruct the full data processing history of each sample.
+For every sample processed through Galaxy workflow runs, we are exporting key results files (reads mapped to the viral reference sequence, variant calls, consensus sequences and tabular reports) to a public space on this server so that consumers can discover, access and reuse it without dealing with Galaxy at all.
 
-You can access all the data by logging in to: ftp://xfer13.crg.eu as User: FTPuser Password: FTPusersPassword
+We are also maintaining a [provenance JSON file](https://galaxyproject.org/projects/covid19/data/#information-about-every-analysis-run) on that server that makes it possible to reconstruct the full data processing history of each sample.
+
+You can access all the data by logging in to: `ftp://xfer13.crg.eu` as User: `FTPuser` Password: `FTPusersPassword`
 
 ### Viral Beacon project
 
-In the showcase the project acts as a consumer of the data and provides visualisations for it.
+In the showcase the [Viral Beacon project](https://covid19beacon.crg.eu/) acts as a consumer of the data and provides visualisations for it.
 
 ### UCSC genome browser
 
-The genome browser offers a Galaxy ENA mutations track populated from the data on the CRG’s server.
+The genome browser offers a [Galaxy ENA mutations](https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=wuhCor1&c=NC_045512v2&g=galaxyEna) track populated from the data on the CRG’s server.
 
 ## Bringing it all together
 
-The components are connected using free and open source “glue” code that can be found on github.
+The components are connected using free and open source “glue” code that can be found on [github](https://github.com/usegalaxy-eu/ena-cog-uk-wfs).
 
-The code relies, to a large extent, on built-in Galaxy functionality, which it accesses via the Galaxy API, including uploading data via links, running workflows in an automated manner, sending result datasets to a remote file source, tagging analysis artefacts for easier discovery, publishing analyses for accessibility, etc, allowing us to keep the code minimal.
+The code relies, to a large extent, on built-in Galaxy functionality, which it accesses via the [Galaxy API](https://usegalaxy.eu/api/docs), including uploading data via links, running workflows in an automated manner, sending result datasets to a remote file source, tagging analysis artefacts for easier discovery, publishing analyses for accessibility, etc, allowing us to keep the code minimal.
 
 ## How to reuse the components
 
@@ -95,7 +97,7 @@ An important aspect for reusability is the modular architecture of the showcase.
   Galaxy has a plugin system through which it can be connected to various remote file systems for data export.
 - Use the data to populate other dashboards of your choice
 
-  The Galaxy project and collaborators have, for example, come up with an interactive Observable dashboard as an alternative visualisation tool for the showcase.
+  The Galaxy project and collaborators have, for example, come up with an [interactive Observable dashboard](https://covid19.galaxyproject.org/dashboard) as an alternative visualisation tool for the showcase.
 
 ## What can you use the showcase for?
 
