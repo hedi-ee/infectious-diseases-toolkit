@@ -50,13 +50,11 @@ Human biomolecular data is of great importance in infectious disease research be
 
 ## Search and discoverability
 
-Search and discoverability are crucial for finding and accessing relevant information, resources, and data related to a specific topic or area of interest, particularly in the context of infectious diseases. Infectious diseases can evolve rapidly and have significant impacts on public health, making it necessary to monitor and respond to outbreaks effectively. This requires access to up-to-date information on disease prevalence, transmission patterns, and clinical outcomes, which can come from various sources, such as clinical data, biomolecular data, public health reports, and social media.
+**Search and discoverability** are crucial for finding and accessing relevant information, resources, and data related to a specific topic or area of interest, particularly in the context of infectious diseases. Infectious diseases can evolve rapidly and have significant impacts on public health, making it necessary to monitor and respond to outbreaks effectively. This requires access to up-to-date information on disease prevalence, transmission patterns, and clinical outcomes, which can come from various sources, such as clinical data, biomolecular data, public health reports, and social media.
 
-Search and discoverability is crucial in infectious disease surveillance because it enables public health professionals and researchers to quickly find and access relevant data sources. This can help them identify emerging disease threats, monitor the spread of disease, and make informed decisions about disease control measures. Without effective search and discoverability, there can be delays in identifying outbreaks and responding to them, leading to increased spread of disease and negative impacts on public health.
+**Standardised terminology and data formats** are also essential for effective search and discoverability in infectious disease surveillance. The use of common disease codes and data structures can facilitate the integration and analysis of data from multiple sources, making it easier to identify trends and patterns. This can improve the ability to identify emerging disease threats and develop effective disease control measures. See [Data harmonisation](#data-harmonisation) section.
 
-Standardised terminology and data formats are also essential for effective search and discoverability in infectious disease surveillance. The use of common disease codes and data structures can facilitate the integration and analysis of data from multiple sources, making it easier to identify trends and patterns. This can improve the ability to identify emerging disease threats and develop effective disease control measures. See [Data harmonisation](#data-harmonisation) section.
-
-Biomolecular data is also critical for understanding the molecular basis of infectious diseases and developing effective diagnostic and treatment strategies. This includes genetic and molecular data related to the pathogen and its interactions with the host. The search and discoverability of biomolecular data sources can be facilitated through the use of standardised data formats and data sharing platforms. This can improve the ability to develop effective diagnostic and treatment strategies for infectious diseases, ultimately protecting the health and wellbeing of individuals and communities.
+**Biomolecular data sources** can be facilitated through the use of standardised data formats and data sharing platforms, allowing the  development of effective diagnostic and treatment strategies of infectious diseases data. 
 
 Overall, search and discoverability are essential for effective infectious disease surveillance and response. By ensuring that relevant data sources are easily accessible and usable, public health professionals can more effectively monitor and control the spread of infectious diseases, ultimately protecting public health.
 
@@ -64,13 +62,13 @@ Overall, search and discoverability are essential for effective infectious disea
 
 Despite the growing amount of infectious disease data stored in various sources, finding and analyzing this data can be challenging for the scientific community. There is a clear need for a user-friendly and efficient way to discover and analyse this data.
 
-- *Data sharing platforms*: Access to data sharing platforms can facilitate the discovery and sharing of biomolecular data related to infectious diseases. Such as the [Covid19 DataPortal](https://www.covid19dataportal.org/).
-- *Data privacy and security*: Privacy and security protocols must be in place to protect sensitive biomolecular data from unauthorised access.
-- *Data quality*: High-quality biomolecular data is critical for accurate disease surveillance, diagnosis, and analysis. Efforts should be made to ensure that data quality is maintained throughout the data lifecycle. See [Human biomolecular data - Quality control](https://www.infectious-diseases-toolkit.org/human-biomolecular-data/quality-control) page.
-- *Data storage and management*: Proper data storage and management practices must be followed to ensure that biomolecular data is organised and easily accessible to relevant parties.
-- *Metadata*: Metadata should be included with biomolecular data to provide context and facilitate search and discoverability.
-- *Collaboration*: Collaboration between data producers, curators, and users can promote effective search and discoverability of biomolecular data related to infectious diseases.
-- *Data standardization*: Standardised data formats and common disease codes are essential for integrating and analyzing biomolecular data from different sources.
+- **Data sharing platforms**: Access to data sharing platforms can facilitate the discovery and sharing of biomolecular data related to infectious diseases. Such as the [Covid19 Data Portal](https://www.covid19dataportal.org/).
+- **Data privacy and security**: Privacy and security protocols must be in place to protect sensitive biomolecular data from unauthorised access.
+- **Data quality**: High-quality biomolecular data is critical for accurate disease surveillance, diagnosis, and analysis. Efforts should be made to ensure that data quality is maintained throughout the data lifecycle. See [Human biomolecular data - Quality control](https://www.infectious-diseases-toolkit.org/human-biomolecular-data/quality-control) page.
+- **Data storage and management**: Proper data storage and management practices must be followed to ensure that biomolecular data is organised and easily accessible to relevant parties.
+- **Metadata**: Metadata should be included with biomolecular data to provide context and facilitate search and discoverability.
+- **Collaboration**: Collaboration between data producers, curators, and users can promote effective search and discoverability of biomolecular data related to infectious diseases.
+- **Data standardization**: Standardised data formats and common disease codes are essential for integrating and analyzing biomolecular data from different sources.
 
 ### Existing approaches
 
@@ -123,7 +121,7 @@ When looking for solutions to data transfer, you can check [this](https://rdmkit
 
 ### Existing approaches
 
-- You can check a list of existing controlled access repositories below.
+- You can check a list of existing controlled access repositories:
   - [European Genome-phenome Archive](https://ega-archive.org/)
   - [Estonian BioBank](https://genomics.ut.ee/en/content/estonian-biobank)
   - [Dutch Covid-19 Data Portal](https://covid19initiatives.health-ri.nl/p/Dashboard) 
@@ -156,4 +154,5 @@ It is important to note that there are currently no specific standards and schem
 
 ### Existing approaches
 
-When looking for solutions to standards, schemas, ontologies and vocabularies, you can check [this](https://rdmkit.elixir-europe.org/metadata_management#how-do-you-find-appropriate-standard-metadata-for-datasets-or-samples) documentation.
+* When looking for solutions to standards, schemas, ontologies and vocabularies, you can check [this](https://rdmkit.elixir-europe.org/metadata_management#how-do-you-find-appropriate-standard-metadata-for-datasets-or-samples) documentation.
+* [FAIRsharing](https://fairsharing.org/search?fairsharingRegistry=Standard) is also a good resources to find metadata standards that be useful for your research.
