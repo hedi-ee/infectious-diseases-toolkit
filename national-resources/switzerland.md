@@ -62,11 +62,12 @@ Registries and databases, with a text to give the context: how they are related 
 
 ## Regulations
 <!--- Ethical and legal regulations in the country, committees etc --->
-The Swiss Academy of Medical Sciences is an independent institution that provides guidance on ethical issues in medicine and healthcare. It develops guidelines and recommendations for medical professionals, policymakers, and the public.
 
-The Swiss National Ethics Committee is an independent advisory body that provides guidance on ethical issues in science and medicine. It advises policymakers and researchers on issues related to human rights, social justice, and scientific integrity.
+Appointed by the Federal Council, the supreme executive and directorial authority of the Swiss Confederation, the [Swiss National Advisory Commission on Biomedical Ethics](https://www.nek-cne.admin.ch/en/homepage-nek-cne/page)(NCE) advises the authorities from an ethical perspective in the field of human biomedicine. This Commission is constituted as an independent panel of experts. It formulates its arguments for the government, the parliament and the public on the state of medical research to identify the social options and ethical issues of biotechnology in the medical area.
 
-Overall, Switzerland has a robust system of institutions responsible for making ethical and legal regulations in different areas, including healthcare, science, and law. These institutions work together to ensure that ethical and legal considerations are taken into account in decision-making processes.
+The [Swiss Academy of Medical Sciences](https://www.samw.ch/en.html) is an independent institution that provides guidance on ethical issues in medicine and healthcare. It develops guidelines and recommendations for medical professionals, policymakers, and the public.
+
+The [Swiss National Ethics Committee](https://swissethics.ch/en) is the umbrella organisation of the cantonal Ethics Committees. It is an independent advisory body that provides guidance on ethical issues in science and medicine. It advises policymakers and researchers on issues related to human rights, social justice, and scientific integrity.
 
 
 ## Domain-specific infrastructures or resources 
