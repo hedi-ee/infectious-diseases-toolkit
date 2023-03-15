@@ -4,21 +4,6 @@ contributors: [Gabriele Rinck, Zahra Waheed]
 description: Here we describe the first example of linking and sharing a cohort data set via the EMBL-EBI infrastructure. 
 affiliations: [ELIXIR Europe]
 page_id: LinkedCohortData
-related_pages: 
-  pathogen_characterisation: [<!---REPLACE THIS with the page IDs of the pathogen_characterisation pages that you want to list here as related pages--->]
-  socioeconomic_data: [<!---REPLACE THIS with the page IDs of the socioeconomic_data pages that you want to list here as related pages--->]
-  human_biomolecular_data: [<!---REPLACE THIS with the page IDs of the human_biomolecular_data pages that you want to list here as related pages--->]
-  human_clinical_and_health_data: [<!---REPLACE THIS with the page IDs of the human_clinical_and_health_data pages that you want to list here as related pages--->]
-training:
-  - name:
-    registry: <!---choose between YouTube, Zenodo, Carpentries, GitHub, TeSS, Other--->
-    url:
-faircookbook:
-  - name: <!---the title of the FAIR Cookbook recipe--->
-    url: <!---the full URL of the FAIR Cookbook recipe using following structure, https://w3id.org/faircookbook/XXXXX--->
-fairsharing:
-  - name: <!---the title of the FAIR Sharing entry--->
-    url: <!---the full URL of the FAIR Sharing entry--->
 
 # More information on how to fill in this metadata section can be found here https://www.infectious-diseases-toolkit.org/contribute/page-metadata
 ---
