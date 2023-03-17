@@ -237,19 +237,22 @@ This page discusses infectious disease research in Norway and provides informati
 
 ## Health Authorities in Norway
 <!--- A section to list and provide context to agencies/authorities/institutions which define public health measures and policies --->
-The [Norwegian Directorate of Health](https://www.helsedirektoratet.no/english) (Helsedirektoratet) and the [Norwegian Institute of Public Health](https://www.fhi.no/en/) (Folkehelseinstituttet, referred to as FHI from here onwards) work jointly to provide an effective and coordinated effort towards the prevention and control of infectious diseases. The agencies also ensure that public health data is collected, stored, and shared in compliance with applicable laws and regulations.
+The [Norwegian Directorate of Health](https://www.helsedirektoratet.no/english) (Helsedirektoratet), the [Norwegian Veterinary Institute](
+(https://www.vetinst.no/en) and the [Norwegian Institute of Public Health](https://www.fhi.no/en/) (Folkehelseinstituttet, referred to as FHI from here onwards) work jointly to provide an effective and coordinated effort towards the prevention and control of infectious diseases. The agencies also ensure that public health data is collected, stored, and shared in compliance with applicable laws and regulations.
 
 The Directorate of Health monitors public health issues to develop national guidelines and strategies for surveillance, prevention, and response activities. Together with local health authorities and healthcare providers, the directorate implements relevant policies and communicates these guidelines to the public. The directorate coordinated the national response to the COVID-19 pandemic, establishing national recommendations for testing, tracing, and isolation.
+
+The Norwegian Veterinary Institute conducts surveillance programs to montitor terrestrial and aquatic animal diseases. The surveillance is carried out under the direction of [the Norwegian Food Safety Authority](https://www.mattilsynet.no/language/english/) and implemeted by the Norwegian Veterinary Institute.
 
 The FHI advises health authorities on public health issues, including disease prevention, outbreak control, and preparedness for national health emergencies. The institute works with the Directorate of Health to develop vaccination programs, guide infection control measures, and support healthcare providers and related institutions. The [Division of Infection Control](https://www.fhi.no/en/about/this-is-the-norwegian-institute-of-public-health/divisions/infection-control-environmental-health/) within FHI supports infectious disease research, monitors infectious disease outbreaks, and analyses data related to these outbreaks. During the recent pandemic, FHI published a [handbook for medical researchers](https://www.fhi.no/nettpub/overvaking-vurdering-og-handtering-av-covid-19-epidemien-i-kommunen/) to understand the handling of SARS-CoV-2 variants data.
 
 Several governmental organisations collaborate with FHI to monitor pathogenic data and support surveillance initiatives:
 * [The Norwegian Environment Agency](https://www.environmentagency.no) oversees detection of pathogens in wastewater and tracks occurrences of antimicrobial resistance (AMR) in natural areas and wild species. The agency is known as [Miljødirektoratet](https://www.miljodirektoratet.no) in Norwegian and has a Norwegian homepage too.
-* [The Norwegian Food Safety Authority](https://www.mattilsynet.no/language/english/) (Mattilsynet) works towards ensuring the safety of food and drinking water in Norway.
+* The [Norwegian Veterinary Institute]((https://www.vetinst.no/en) conducts surveillance programs montitoring terrestrial and aquatic animal diseases under the direction of the [Norwegian Food Safety Authority](https://www.mattilsynet.no/language/english/) (Mattilsynet) which is working towards ensuring the safety of food and drinking water in Norway.
 * [The Norwegian Medicines Agency](https://legemiddelverket.no/English) (Legemiddelverket) regulates and supervises medicine, medical devices, and clinical trials in Norway.
 In addition to the national-level health authorities and agencies, there are regional/municipality-level efforts taking place across hospitals in Norway to combat infectious diseases:
 * [Norwegian National Advisory Unit on Tropical Infectious Diseases](https://helse-bergen.no/nasjonal-kompetansetjeneste-for-tropiske-infeksjonssykdommer/norwegian-national-advisory-unit-on-tropical-infectious-diseases)
-*  [The Influenza Centre: Research, Prevention, and Control of Influenza](https://www.influensasenteret.no/)
+
 
 ## Disease surveillance initiatives
 ### Projects
@@ -261,10 +264,11 @@ You will find information on other surveillance systems and databases under the 
 
 ### Reports
 * [Weekly reports](https://www.fhi.no/en/publ/2020/weekly-reports-for-coronavirus-og-covid-19/) for COVID-19, influenza, and other respiratory tract infections
+* [Yearly reports from active and former surveillance programs on animal diseases](https://www.vetinst.no/en/surveillance-programmes)
 * [National Strategy against Antibiotic Resistance 2015-2020](https://www.regjeringen.no/contentassets/5eaf66ac392143b3b2054aed90b85210/antibiotic-resistance-engelsk-lavopploslig-versjon-for-nett-10-09-15.pdf) (in PDF).
 * The renewed (2020) [Norwegian National Strategy against Antimicrobial Resistance](https://doi.org/10.3390%2Fantibiotics9090622)
 * [Overview of Norwegian Environment Agency reports on antimicrobial resistance in nature](https://www.miljodirektoratet.no/aktuelt/nyheter/2018/mars-2018/har-kartlagt-antibiotikaresistens-i-norsk-natur/) (in Norwegian)
-* The [NORM/NORM-VET report on antimicrobial use and resistance in Norway (2012)](https://unn.no/Documents/Kompetansetjenester,%20-sentre%20og%20fagr%C3%A5d/NORM%20-%20Norsk%20overv%C3%A5kingssystem%20for%20antibiotikaresistens%20hos%20mikrober/Rapporter/NORM%20NORM-VET%202021.pdf) (in PDF).
+* The [NORM/NORM-VET report on antimicrobial use and resistance in Norway (1999 - 2021)](https://www.vetinst.no/en/surveillance-programmes/norm-norm-vet-report) (in PDF).
 
 ## Dashboards and visualization platforms
 Several national registries, involved in tracking infectious disease cases, have their own dashboards for viewing data. All these platforms are available in Norwegian only:
@@ -307,25 +311,27 @@ The recent SARS-CoV-2 pandemic brought new challenges for the country that resul
 
 The [Norwegian Data Protection Authority (Datatilsynet)](https://www.datatilsynet.no/en/) is an independent body that oversees the processing of personal data in Norway, including data related to public health and infectious disease outbreaks. Datatilsynet upholds compliance with Norwegian data protection laws and the General Data Protection Regulation (GDPR) of the European Union. The regulations for sensitive/personal research data and clinical data, in Norway, are implemented in [Health Research Act (Helseforskningsloven)](https://lovdata.no/dokument/NL/lov/2008-06-20-44?q=helseforskningsloven). RDMkit provides general data management guidelines for handling of [sensitive data](https://rdmkit.elixir-europe.org/sensitive_data) and [human data](https://rdmkit.elixir-europe.org/human_data.html).
 
-When it comes to scientific research, [Norges Forskningsråd (Research Council of Norway)](https://www.forskningsradet.no/en/) has a [policy that requires open access to research data (revised 2017, in PDF)](https://www.forskningsradet.no/siteassets/publikasjoner/1254032622112.pdf). [The council highlights the importance of open science with useful resources](https://www.forskningsradet.no/en/research-policy-strategy/open-science/).
+When it comes to scientific research, the Nowegian goverment has published a [strategy on research data in 2018](https://www.regjeringen.no/en/dokumenter/national-strategy-on-access-to-and-sharing-of-research-data/id2582412) which is implemented by the [Norges Forskningsråd (Research Council of Norway)](https://www.forskningsradet.no/en/) it its [policy that requires open access to research data (revised 2017, in PDF)](https://www.forskningsradet.no/siteassets/publikasjoner/1254032622112.pdf). [The council highlights the importance of open science with useful resources](https://www.forskningsradet.no/en/research-policy-strategy/open-science/).
 
 ## Domain-specific infrastructures or resources 
 <!--- e.g. human data, covid-19. Please, only add domain-specific resources that you think don't fit in the table at the bottom--->
 ### National infrastructures
 * [The Norwegian Institute of Public Health’s Antibiotic Committee (Folkehelseinstituttets antibiotikakomitéen)](https://www.fhi.no/sv/antibiotikaresistens/antibiotikakomiteen/). The [FHI provides a general information and resources on antibiotic resistance](https://www.fhi.no/sv/antibiotikaresistens/), useful for both public, researchers, and health service professionals
-* [CAMRIA (Combatting Antimicrobial Resistance with Interdisciplinary Approaches)](https://camria.w.uib.no/), launched at the University of Bergen (UiB), is a research centre with multiple partners (Haukeland University Hospital and Stavanger University Hospital) that work together to address AMR topics in a context of microbial genomics and related areas.
 * [The National Advisory Unit on Detection of Antimicrobial Resistance (K-res)](https://unn.no/fag-og-forskning/k-res) provides laboratory-based services for the detection and surveillance of antimicrobial resistance in Norway. The unit offers diagnostic and advisory services, trains healthcare professionals, and advises on appropriate antibiotic distribution and use.
 * [Norwegian Society for Medical Microbiology (Norsk forening for medisinsk mikrobiologi (NFMM)](https://www.legeforeningen.no/foreningsledd/fagmed/norsk-forening-for-medisinsk-mikrobiologi/) is a national association to bring together experts from medical microbiology fields for knowledge-exchange. NFMM also provides a [database of clinical laboratories that take care of infectious disease, pathogen, and related sampling](https://www.legeforeningen.no/foreningsledd/fagmed/norsk-forening-for-medisinsk-mikrobiologi/fag/kliniske-laboratorier-i-norge/).
 
 ### Institutional initiatives on antimicrobial resistance (AMR)
 There are national research projects focused towards pathogenomics to help improve agriculture, food, public health, environment, and biodiversity in Norway. Also, higher education institutions and industrial organisations have forums and research centres dedicated to addressing the topics of antimicrobial resistance and pandemic preparedness.
+* [Antimicrobial restistance research at the Norwegian Veterinary Institute](https://www.vetinst.no/en/research-and-innovation/research-groups/antimicrobial-resistance-research-group)
 * [PathoSeq](https://nofima.com/projects/pathoseq/), a project on sequencing pathogenic bacteria for food safety. More information is available on the [University of Oslo PathoSeq page](https://www.jus.uio.no/ifp/english/research/projects/nrccl/pathoseq/).
 * [Interdisciplinary Forum for Research on Antimicrobial resistance (INFRA)](https://www.med.uio.no/she/english/network/INFRA/index.html), University of Oslo
+* [CAMRIA (Combatting Antimicrobial Resistance with Interdisciplinary Approaches)](https://camria.w.uib.no/), launched at the University of Bergen (UiB), is a research centre with multiple partners (Haukeland University Hospital and Stavanger University Hospital) that work together to address AMR topics in a context of microbial genomics and related areas.
 * [The Antibiotic Centre for Primary Care](https://www.med.uio.no/helsam/english/research/groups/general-practice-medicine/asp/), University of Oslo
 * The [Centre for new antibacterial strategies (CANS)](https://uit.no/research/cans?p_document_id=648381&Baseurl=/research/) at the Arctic University of Norway (UiT) comprises 16 research groups across three faculties, dedicated to AMR-related marine bioprospecting, pharmacology, and surveillance.
 
 ### Institutional initiatives on epidemic/pandemic research
 * [Pandemic Centre](https://www.uib.no/en/pandemic) at the University of Bergen aims to address the topic of how to handle and prevent pandemics, and raise awareness through knowledge-exchange activities.
+* [The Influenza Centre: Research, Prevention, and Control of Influenza](https://www.influensasenteret.no/)
 * [Centre for Epidemic Interventions Research (CEIR)](https://www.fhi.no/en/about/departments-and-centres/ceir/), at the FHI, works towards understanding and further improving epidemic preparedness and risk control.
 
 In addition to national and municipality-level efforts, Norway has also been involved in international projects and initiatives to help address infectious disease control and contribute to research in the field .
@@ -333,4 +339,5 @@ In addition to national and municipality-level efforts, Norway has also been inv
 * [Network for One Health Resistome Surveillance (NORSE)](https://www.fhi.no/en/cristin-projects/ongoing/norse---network-for-one-health-resistome-surveillance/)
 * Nordic Vets Against AMR [(Article by Sternberg-Lewerin et al (2022)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9405251/)
 * [Nordic Society of Clinical Microbiology and Infectious Diseases (NSCMID)](https://www.nscmid.org/)
+* [Norwegian Society for Medical Microbiology (Norsk forening for medisinsk mikrobiologi (NFMM)](https://www.legeforeningen.no/foreningsledd/fagmed/norsk-forening-for-medisinsk-mikrobiologi/) is a national association to bring together experts from medical microbiology fields for knowledge-exchange.
 * [Nordic Ovine Research, Surveillance and Epidemiology](https://nordicagriresearch.org/norse/), part of the Nordic Joint Committee for Agricultural and Food Research
