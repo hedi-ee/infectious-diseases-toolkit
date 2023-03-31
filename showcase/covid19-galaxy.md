@@ -18,7 +18,7 @@ training:
 ## Introduction
 
 The SARS-CoV-2 pandemic has generated a demand for sequencing-based viral genome analysis at an unprecedented scale.
-As a result of this challenge, numerous new sequencing projects have emerged to track the pandemic on a molecular level.
+As a result of this challenge, numerous new sequencing projects have emerged to track the course of the pandemic on a molecular level.
 Fortunately, investments made in public and open computing and storage infrastructure projects, as well as in reliable and scalable data analysis
 frameworks have proven beneficial and could be employed for the required genome monitoring of SARS-CoV-2.
 
