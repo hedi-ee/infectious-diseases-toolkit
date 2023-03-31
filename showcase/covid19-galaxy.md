@@ -77,7 +77,7 @@ In the showcase the [Viral Beacon project](https://covid19beacon.crg.eu/) acts a
 ### UCSC genome browser
 
 The genome browser offers a [Galaxy ENA mutations](https://genome.ucsc.edu/cgi-bin/hgTrackUi?db=wuhCor1&c=NC_045512v2&g=galaxyEna)
-track populated from the data on the CRG’s archive.
+track populated from the data in the CRG’s archive.
 
 ## Bringing it all together
 
