@@ -3,7 +3,7 @@ title: An automated SARS-CoV-2 genome surveillance system built around Galaxy
 contributors: [Wolfgang Maier] 
 description: An automated, modular system for large-scale FAIR analysis of SARS-CoV-2 sequencing data analysis powered by the Galaxy platform.
 affiliations: [DE, European Union]
-page_id: COVID19GalaxyProject
+page_id: covid19_galaxy_project
 related_pages:
   showcase: [korogenoest]
 training:
@@ -45,7 +45,7 @@ Many large national SARS-CoV-2 sequencing data providers submit their raw data t
   - the [Portuguese network for SARS-CoV-2 genomics](https://insaflu.insa.pt/covid19/) (PRJEB47340)
   - the Estonian national sequencing initiatives (KoroGeno-EST-3 and KoroGeno-EST-2022; see [dedicated showcase](https://www.infectious-diseases-toolkit.org/showcase/korogenoest.html))
 
-In addition, we provide the possibility to request analysis of samples of particular interest via pull requests to a dedicated [Github repo](https://github.com/usegalaxy-eu/sars-cov-2-processing-requests).
+In addition, we provide the possibility to request analysis of samples of particular interest via pull requests to a dedicated [Github repository](https://github.com/usegalaxy-eu/sars-cov-2-processing-requests).
 
 ### WorkflowHub
 
