@@ -15,7 +15,7 @@ page_id: korogenoest
 ## Introduction 
 
 <!--- In this section you should provide a brief overview of the context that makes Showcase necessary. It is useful to mention the projects under which the showcase was created, the involved research infrastructures, and the disease it is meant to tackle --->
-Sequencing initiatives in Estonia began in September 2020. The KoroGeno-EST-3 and KoroGeno-EST-2022 projects took over the sequencing activities in May 2021, and their work concluded at the end of 2022. Here, we describe the workflow of samples and data employed by the [KoroGeno-EST-3 and KoroGeno-EST-2022 projects](https://kliinilinemeditsiin.ut.ee/et/sisu/eesti-sars-cov-2-taisgenoomide-jarjestamine-ja-analuus-korogeno-est-1est-2est-3) .
+Sequencing initiatives in Estonia began in Spring 2020. The KoroGeno-EST-3 and KoroGeno-EST-2022 projects took over the sequencing activities in May 2021, and their work concluded at the end of 2022. Here, we describe the workflow of samples and data employed by the [KoroGeno-EST-3 and KoroGeno-EST-2022 projects](https://kliinilinemeditsiin.ut.ee/et/sisu/eesti-sars-cov-2-taisgenoomide-jarjestamine-ja-analuus-korogeno-est-1est-2est-3) .
 
 ## Who is the KoroGeno-Est showcase intended for?
 
@@ -23,7 +23,7 @@ Sequencing initiatives in Estonia began in September 2020. The KoroGeno-EST-3 an
 This showcase provides a high-level overview of the full workflow that was used to monitor the SARS-CoV-2 situation in Estonia by sequencing a proportion of positive PCR samples in the country. The showcase could be beneficial for a general overview but also trigger potential contact with research groups or health boards that need to set up their automatic data handling and sequencing pipelines.
 
 
-{% include image.html file="/KoroGenoEst_graphicalabstract.jpeg" caption="The figure illustrates major analysis steps carried out in Estonia to sequence and analyse SARS-CoV-2 PCR positive samples" alt="In Estonia the SARS-CoV-2 sequencing was carried out in collaboration with the SYNLAB Eesti, Health Board Estonia and University of Tartu. The Synlab provided information on the basic sample metadata and PCR outcome, Health Board provided sample metadata on e.g. age, gender, county, vaccination information. The central data storage was at GitLab instance at the University of Tartu. The University of Tartu research groups merged the data, created plate information files for sequencing, collecting the sequencing results, generated custom reports, interactive dashboards and brokered data to ENA. In addition to data sequenced in Estonia, also data from ECDC was analysed in similar manner to provide accurate overview of the situation." %}
+{% include image.html file="/KoroGenoEst_graphicalabstract.jpeg" caption="The figure illustrates major analysis steps carried out in Estonia to sequence and analyse SARS-CoV-2 PCR positive samples" alt="In Estonia the SARS-CoV-2 sequencing was carried out by University of Tartu in collaboration with the SYNLAB Eesti and Health Board Estonia. The Synlab provided information on the basic sample metadata and PCR outcome, Health Board provided sample metadata on e.g. age, gender, county, vaccination information. The central data storage was at GitLab instance at the University of Tartu. The University of Tartu research groups merged the data, created plate information files for sequencing, collecting the sequencing results, generated custom reports, interactive dashboards and brokered data to ENA. In addition to data sequenced in Estonia, also data from ECDC was analysed in similar manner to provide accurate overview of the situation." %}
 
 
 In Estonia the SARS-CoV-2 sequencing was carried out in collaboration with the SYNLAB Eesti, Health Board Estonia and University of Tartu. The Synlab provided information on the basic sample metadata and PCR outcome, Health Board provided sample metadata on e.g. age, gender, county, vaccination information. 
@@ -42,12 +42,12 @@ In addition, the study identified the prevalence of variants associated with hig
 Throughout most of the pandemic, SYNLAB Eesti testing sites in Estonia provided free SARS-CoV-2 PCR testing for all individuals living in the country. The free testing stopped for general population in May 2022 and for risk groups in November 2022. Self-paid testing has been available since 2020.
 
 ### Sample metadata
-Initially, at the beginning of the pandemic, all persons testing positive were contacted by the Health Board authorities and asked to provide details of their recent travels, family and work situation, in addition to more standard metadata of age, gender and place of living. This type of data collection was ongoing till spring 2022, after which only more general metadata was collected (gender, age, county). Once vaccination was made available to the public in spring 2021, also vaccination information was obtained first from the people themselves, and later data was systematically obtained from the [Health and Welfare Information Systems Centre](https://www.tehik.ee). In addition hospitalisation information was provided by the Health Board.
+Initially, at the beginning of the pandemic, all persons testing positive were contacted by the Health Board authorities and asked to provide details of their recent travels, family and work situation, in addition to more standard metadata of age, gender and place of living. This type of data collection was ongoing till spring 2022, after which only more general metadata was collected (gender, age, county). Once vaccination was made available to the public in spring 2021, also vaccination information was first self-reported, and later data including information on hospitalisation was systematically obtained from the [Health and Welfare Information Systems Centre](https://www.tehik.ee). In addition hospitalisation information was provided by the Health Board who obtained it from TEHIK.
 
 ### PCR testing
-The laboratory of  SYNLAB Eesti carried out PCR testing. They captured Ct values and  particular mutation sites such as (Y453F) for all positively tested samples. The social security codes that uniquely identify a person in Estonia were shared with the Health Board, who together with the virology experts from the University of Tartu chose samples for sequencing. 
+The laboratory of  SYNLAB Eesti carried out PCR testing. They captured Ct values and  particular mutation sites for all positively tested samples. The social security codes that uniquely identify a person in Estonia were shared with the Health Board. Health Board  together with the virology experts from the University of Tartu chose samples for sequencing based on various parameters. 
 
-In general, the samples were carefully selected to ensure representation of the Estonian demographic and geographic subgroups, with additional samples taken from outbreaks that occurred at hospitals, elderly homes or work places. The data at individual level was linked at the Health Board and sample IDs from SySYNLAB Eesti lab and the matching metadata IDs were created. Both the Health Board and SYNLAB Eesti uploaded the data about the samples to an access restricted Gitlab repository.  
+In general, the samples were carefully selected to ensure representation of the Estonian demographic and geographic subgroups, with additional samples taken from outbreaks that occurred at hospitals, elderly homes or work places. The data at individual level was linked at the Health Board and sample IDs from SYNLAB Eesti lab and the matching metadata IDs were created. Both the Health Board and SYNLAB Eesti uploaded the data about the samples to an access restricted Gitlab repository. The University of Tartu team received only pseudonymised data. 
 
 In addition to sequencing carried out in Estonia, samples were also sent to ECDC. The metadata for these samples followed the same pipeline as above. But the sequences were downloaded from dedicated ECDC websites and bioinformatically processed the same manner as the samples sequenced in Estonia.
 
@@ -57,7 +57,7 @@ The metadata was semi-automatically cleaned and automatically standardised by cu
 
 ## Sequencing and sequence analysis
 
-The samples moved from SYNLAB Eesti and hospitals laboratories directly to the University of Tartu Genome Centre Core lab who carried out the sequencing using Illumina NextSeq sequencer. Based on the sample information and original location on the laboratory plates the automatic pipeline generated the 96-well plate layouts needed to carry out the sequencing.
+Since May 2021 the samples moved from SYNLAB Eesti and hospitals laboratories directly to the University of Tartu Genome Centre Core lab who carried out the sequencing using Illumina NextSeq sequencer. Before, the samples were manually picked out from all the positive tests at the University of Tatu. Based on the sample information and original location on the laboratory plates the automatic pipeline generated the 96-well plate layouts needed to carry out the sequencing.
 
 The sequencing was carried out using [Arctic3](https://www.protocols.io/view/covid-19-artic-v3-illumina-library-construction-an-j8nlke665l5r/v5) and later [Arctic4](https://www.protocols.io/view/covid-19-artic-v4-1-illumina-library-construction-j8nlk4b36g5r/v2)  libraries.  At times also [NebNext Arctic](https://www.protocols.io/view/nebnext-artic-protocols-collection-rm7vz3rxrgx1/v1T) protocols were tested out. 
 
@@ -67,7 +67,7 @@ The work was carried out at the [Galaxy instance](https://galaxy.hpc.ut.ee/) hos
 
 ## Generating custom reports
 
-Based on the report templates provided by the ECDC, reports were filled in automatically  based on the sequencing results. These reports included variants of concern (VoCs), specific set of mutations or deletions defined by the ECDC such as S-gene deletion, 501_V2 variants etc. Similar reports were also generated for the Health Board to consult the Government.
+Based on the report templates provided by the ECDC, reports were filled in automatically  based on the sequencing results. These reports included variants of concern (VoCs), specific set of mutations or deletions defined by the ECDC that changed over time. Similar reports were also generated for the Health Board to consult the Government.
 
 ## Dashboards
 
@@ -122,7 +122,17 @@ The KoroGeno-EST studies were conducted in cooperation with the University of Ta
 - [Example metadata template ERC000033](https://github.com/ELIXIR-Belgium/ENA-metadata-templates/blob/main/templates/ERC000033/example_metadata_template_ERC000033.xlsx )
 
 ## Team members of KoroGeno-Est
-Aare Abroi, Radko Avi, Liidia Dotsenko, Jevgenia Epštein, Ulvi Gerst Talas, Mari-Anne Härma, Dagmar Hoidmets, Kristi Huik, Heleri Inno, Erik Jaaniso, Ene-Ly Jõgeda, Katrin Kaarna, Eveli Kallas, Ivar Koppel, Ivan Kuzmin, Andrio Lahesaare, Irja Lutsar, Mait Metspalu, Lili Milani, Paul Naaber, Heiki Niglas, Ott Eric Oopkaup, Taavi Päll, Merit Pauskar, Hedi Peterson, Kaspar Ratnik, Tuuli Reisberg, Uku Raudvere, Olga Sadikova, Hanna Sepp, Arina Shablinskaja, Steven Smit, Heleene Suija, Kai Truusalu
+Core team at University of Tartu:
+Virology and epidemiology: Kristi Huik (main coordinator of the project); Aare Abroi, Irja Lutsar, Radko Avi, Merit Pauskar, Taavi Päll, Arina Shablinskaja, Kai Truusalu, Dagmar Hoidmets, Ene-Ly Jõgeda, Eveli Kallas, Katrin Kaarna (project management)
+Sequencing: Tuuli Reisberg (coordinator of sequencing), Mait Metspalu, Lili Milani, Steven Smit
+Bioinformatics: Hedi Peterson (coordinator of bioinformatic), Ulvi Gerst Talas, Ivar Koppel, Ott Eric Oopkaup, Erik Jaaniso, Ivan Kuzmin, Uku Raudvere; Heleri Inno, Diana Pilvar (data managers) 
+
+Synlab team: Andrio Lahesaare, Paul Naaber, Krislin Raus, Kaspar Ratnik
+
+Estonian Health Board team: Mari-Anne Härma, Heiki Niglas, Liidia Dotsenko, Olga Sadikova, Hanna Sepp, Heleene Suija, Jevgenia Epštein 
+
+![image](https://user-images.githubusercontent.com/29224182/232409906-1da13ba5-ec13-4c6c-9283-f68336bc0aa6.png)
+
 
 <!--- In this section you should provide a brief summary of the uses of the showcase, i.e. when you would use this showcase resource ---> 
 
