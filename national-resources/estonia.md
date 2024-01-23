@@ -48,12 +48,12 @@ national_resources:
 <!---Please focus on resources that are relevant for the whole country for infectious diseases--->
 
 ## Introduction 
-This page gathers COVID-19 disease data initiatives, dashboards and datasets that were developed and published during 2020-2024 in Estonia. It also provides information on health authorities and local regulations for data handling and disease control. The primary target audience is the wider scientific community.
+This page gathers COVID-19 disease data initiatives, dashboards, and datasets that were developed and published during 2020-2024 in Estonia. It also provides information on health authorities and local regulations for data handling and disease control. The primary target audience is the wider scientific community.
 
 ## Health authorities
 <!--- A section to list and provide context to agencies/authorities/institutions which define public health measures and policies --->
 In Estonia, the infectious disease data is mostly collected by [The Estonian Health Board](https://www.terviseamet.ee/en) (HB) and made publicly available as open data. The Health Board also provides guidelines:
-* for the health authorities (all guidelines in estonian)
+* for the health authorities (all guidelines in Estonian)
   * [Monkeypox guidelines for healthcare workers](https://www.terviseamet.ee/et/ahvirougete-juhised-tervishoiutootajatele)
   * [Hospital infections](https://www.terviseamet.ee/et/nakkushaigused-menuu/tervishoiutootajale/haiglanakkus)
 * and general public
@@ -62,8 +62,10 @@ In Estonia, the infectious disease data is mostly collected by [The Estonian Hea
 
 
 ## Disease surveillance initiatives
-Wastewater surveillance was set up by the researchers of the University of Tartu (ref Tenson) and taken over by the Health Board by DATE. 
-Prevalence study 
+The state needed additional surveillance data, and scientists were able to ensure the rapid development and implementation of new methodologies. During the COVID-19 pandemic, in cooperation with the University of Tartu, the following initiatives were implemented:
+
+* Wastewater surveillance was set up in August 2020 [by the researchers of the University of Tartu](https://ut.ee/en/node/113141) (prof Tanel Tenson and Veljo Kisand) and taken over [by the Health Board](https://www.terviseamet.ee/et/reoveeseire-kaardirakendus) by 2022. Based on data from Estonia, the viral load in wastewater increased before a rise in the number of infected people was observed. Furthermore, in certain places such as dormitories and prisons, it can predict outbreaks. In conclusion, wastewater studies have additional value when infection rates are on the rise or decline, but not during a plateau.
+* Prevalence study 
 * SARS-CoV-2 sequencing was started at the University of Tartu in 2020. The KoroGenoEst projects, also described as a Showcase, led by the University of Tartu, were run till January 2023. During the three years, 8990 samples were analysed all together. Since 2023, the Health Board took over the SARS-CoV-2 sequencing analysis.
 * In August 2020, a COVID-tracking app called Hoia was launched. The app tracked contacts by capturing Bluetooth signals from nearby phones, and if the signal was close and frequent enough, anonymous codes were collected and stored on the phone. If a person with the HOIA app becomes infected, they could alert the app, and those who were considered to have been in close contact with that person were immediately notified. The app was used by 300 000 people but was decommissioned in May 2022.
 
