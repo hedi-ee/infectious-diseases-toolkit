@@ -52,7 +52,14 @@ This page gathers COVID-19 disease data initiatives, dashboards and datasets tha
 
 ## Health authorities
 <!--- A section to list and provide context to agencies/authorities/institutions which define public health measures and policies --->
-In Estonia, the infectious disease data is mostly collected by [https://www.terviseamet.ee/en](The Estonian Health Board)(HB) and made publicly available as open data. The Health Board also provides guidelines for the health authorities and general public. 
+In Estonia, the infectious disease data is mostly collected by [The Estonian Health Board](https://www.terviseamet.ee/en) (HB) and made publicly available as open data. The Health Board also provides guidelines:
+* for the health authorities (all guidelines in estonian)
+  * [Monkeypox guidelines for healthcare workers](https://www.terviseamet.ee/et/ahvirougete-juhised-tervishoiutootajatele)
+  * [Hospital infections](https://www.terviseamet.ee/et/nakkushaigused-menuu/tervishoiutootajale/haiglanakkus)
+* and general public
+  * [Monkeypox guidelines](https://www.terviseamet.ee/et/ahvirouged)
+  * [COVID-19](https://www.terviseamet.ee/et/nakkus-haigused/covid-19-infoleht)
+
 
 ## Disease surveillance initiatives
 Wastewater surveillance was set up by the researchers of the University of Tartu (ref Tenson) and taken over by the Health Board by DATE. 
