@@ -53,7 +53,7 @@ This page gathers COVID-19 disease data initiatives, dashboards, and datasets th
 
 ## Health authorities
 <!--- A section to list and provide context to agencies/authorities/institutions which define public health measures and policies --->
-In Estonia, infectious disease data is mainly collected by [The Estonian Health Board](https://www.terviseamet.ee/en) and made publicly available as open data. The Health Board also provides guidelines:
+In Estonia, infectious disease data is mainly collected by [The Estonian Health Board](https://www.terviseamet.ee/en) (HB) and made publicly available as open data. The Health Board also provides guidelines:
 * for the health authorities (all guidelines in Estonian)
   * [Monkeypox guidelines for healthcare workers](https://www.terviseamet.ee/et/ahvirougete-juhised-tervishoiutootajatele)
   * [Hospital infections](https://www.terviseamet.ee/et/nakkushaigused-menuu/tervishoiutootajale/haiglanakkus)
@@ -77,12 +77,12 @@ During the COVID-19 pandemic, the need for additional surveillance data became p
 
 ## Dashboards and visualization platforms
 
-* [koroona.ut.ee](https://koroona.ut.ee/) Multiple dashboards using opendata provided by the Health Board. 
-* [Wastewater map](https://www.terviseamet.ee/et/reoveeseire-kaardirakendus). Weekly updated wastewater surveillance data since August 2021. 
-* [SARS-CoV-2 sequencing results from Health Boaard](https://www.terviseamet.ee/et/koroonaviirus/sekveneerimine). Since January 2023, the Health Board has taken over the coronavirus sequencing from the University of Tartu and developed the accompanying interactive dashboards. 
-* [Health Board coronavirus dashboards](https://www.terviseamet.ee/en/coronavirus-dataset). Official dashboards of the Health Board. The page includes several visualisations using infection, infected individual profiles, hospital treatment and vaccination data.
-* [Corona map](https://koroonakaart.ee/en). An interactive dashboard for SARS-CoV-2 testing and vaccination data. Last data update: 02.05.2023
-* [Corona statistics at the Postimees news site](https://www.postimees.ee/6931752/graafikud-nadalaga-lisandus-140-gripi-ja-1445-koroonajuhtu). The major newspaper Postimees updated daily the SARS-CoV-2 statistics using the open data from the Health Board. Last data update: 01.05.2023
+* [koroona.ut.ee](https://koroona.ut.ee/) Multiple dashboards using open data provided by the Health Board. 
+* [Wastewater map](https://www.terviseamet.ee/et/reoveeseire-kaardirakendus) Wastewater surveillance data has been updated weekly since August 2021.
+* [SARS-CoV-2 sequencing results from Health Board](https://www.terviseamet.ee/et/koroonaviirus/sekveneerimine) Since January 2023, the Health Board has taken over the coronavirus sequencing from the University of Tartu and developed the accompanying interactive dashboards. 
+* [Health Board coronavirus dashboards](https://www.terviseamet.ee/en/coronavirus-dataset) Official dashboards of the Health Board. The page includes several visualizations using infection, infected individual profiles, hospital treatment, and vaccination data.
+* [Corona map](https://koroonakaart.ee/en) An interactive dashboard for SARS-CoV-2 testing and vaccination data. Last data update: 02.05.2023
+* [Corona statistics at the Postimees news site](https://www.postimees.ee/6931752/graafikud-nadalaga-lisandus-140-gripi-ja-1445-koroonajuhtu) The major newspaper Postimees updated daily the SARS-CoV-2 statistics using the open data from the Health Board. Last data update: 01.05.2023
 * [Public dashboard on SARS-CoV-2 sequencing results for 2021-2022](https://covid19dataportal.ee/genomics_transcriptomics/) Last data update: 20.03.2023
 * [Infectious analysis by Krista Fischer](https://www-1.ms.ut.ee/krista/covid/covid_pildid.html) using open data from the Health Board. Last updated on 14.09.2022
 * [Model predictions by Mario Kadastik](https://covid.hep.kbfi.ee/) Using model forecasts, predictive calculations were performed to find the hospitalisation, the intensive care unit and the death toll predictions. All the values are estimated, and if the actual reproduction number (R value) and the model forecast differ, it was expected that the forecast would also be different from reality. The page was last updated on 17.04.2023
